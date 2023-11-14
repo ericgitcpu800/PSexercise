@@ -16,14 +16,9 @@
     "web-vitals": "2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "npm run test:unit:coverage",
-    "eject": "react-scripts eject",
-    "test:unit": "jest --watchAll=true",
-    "test:unit:coverage": "npm run test:unit -- --watchAll=false --coverage",
-    "lint": "eslint ./src --ext .jsx,.js,.ts,.tsx --fix",
-    "prettier": "prettier --write \"src/**/*.{ts,tsx}\""
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint .",
+    "prettier": "prettier --write ."
   },
   "browserslist": {
     "production": [
